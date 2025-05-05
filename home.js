@@ -1,7 +1,7 @@
 // script.js
 
 const apiKey = "9ea1fa0b6f05f7283c26d775af7a351a"; // Your OpenWeatherMap API Key
-const defaultCity = "Livingstone";
+const defaultCity = "chingola";
 
 function fetchWeather() {
     const weatherInfo = document.getElementById("weather-info");
