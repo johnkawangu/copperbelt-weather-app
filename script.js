@@ -65,7 +65,7 @@ cities.forEach(city => {
 // Function to get and fetch weather for the default city or fallback
 function handleDefaultCity() {
     // Check if a user-selected default city exists in localStorage
-    const savedCity = localStorage.getItem('defaultCity') || 'Livingstone'; // Default fallback is Livingstone
+    const savedCity = localStorage.getItem('defaultCity') || 'chingola'; // Default fallback is chingola
     getWeather(savedCity).catch((error) => {
         
         console.warn(`Failed to fetch weather for ${savedCity}: ${error.message}`);
@@ -692,8 +692,8 @@ async function updateWeatherAndSections(city) {
 
    // About content including Mission, Vision, Engineer Information, and Technology
 const aboutContent = `
-    <p>Welcome to copperbeltweather app ! We are your trusted source for accurate, up-to-date weather information, ensuring that you stay informed and prepared for all weather conditions. Whether you're planning your day, organizing an outdoor event, or simply staying safe during severe weather, copperbelt weather app is here to guide you.</p>
-    <p>At copperbeltweatherapp, we understand that the weather plays a vital role in everyday life. That’s why we provide real-time updates, weekly forecasts, and severe weather alerts tailored to your location. Our user-friendly interface and interactive features make accessing weather information seamless and intuitive.</p>
+    <p>Welcome to copperbelt weather app ! We are your trusted source for accurate, up-to-date weather information, ensuring that you stay informed and prepared for all weather conditions. Whether you're planning your day, organizing an outdoor event, or simply staying safe during severe weather, copperbelt weather app is here to guide you.</p>
+    <p>At copperbelt weather app, we understand that the weather plays a vital role in everyday life. That’s why we provide real-time updates, weekly forecasts, and severe weather alerts tailored to your location. Our user-friendly interface and interactive features make accessing weather information seamless and intuitive.</p>
     <p>Powered by advanced technology, copperbelt weather app uses the OpenWeatherMap API to deliver reliable and precise data from trusted global sources. We aim to empower individuals, families, and communities by keeping them informed and helping them make decisions confidently.</p>
     <p>Beyond just providing weather updates, copperbelt weather app is committed to promoting environmental awareness. As climate change continues to impact weather patterns, we aim to educate and inspire users to take action for a sustainable future.</p>
 
@@ -706,7 +706,7 @@ const aboutContent = `
     <p>Our vision is to become a global leader in weather information services, known for accuracy, innovation, and user-centric solutions. We aim to create a world where people are better informed about the weather, leading to safer and more sustainable communities. We believe that by harnessing the power of technology and data, we can make weather information more accessible and useful to everyone.</p>
 
     <!-- About the Engineer Section -->
-    <p>copperbelt weather app was created by Johnkawangu, a student of Electrical and Electronics Engineering at Information and Communication University (ICU). John’s passion for technology and innovation led to the development of this platform to make weather information accessible and accurate for everyone.</p>
+    <p>copperbelt weather app was created by John kawangu, a student of Electrical and Electronics Engineering at Information and Communication University (ICU). John’s passion for technology and innovation led to the development of this platform to make weather information accessible and accurate for everyone.</p>
 
     <p>Thank you for choosing copperbelt weather app . Explore our platform and experience weather tracking like never before.</p>
 
