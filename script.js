@@ -769,7 +769,7 @@ const contactContent = `
     <p>If you have any questions, feedback, or inquiries, feel free to reach out to us through the following options:</p>
     
     <!-- WhatsApp Link -->
-    <p><strong>Message Mr. kawangu on WhatsApp:</strong> <a href="https://wa.me/message/EOAD4Y3FKY7OJ1" target="_blank">Click here to chat</a></p>
+    <p><strong>Message Mr. kawangu on WhatsApp:</strong> <a href="https://Wa.me/+260963940129/" target="_blank">Click here to chat</a></p>
 
     <!-- Email -->
     <p><strong>Email:</strong> <a href="mailto:Johnkawangu127@gmail.com">Johnkawangu127@gmail.com</a></p>
