@@ -787,8 +787,7 @@ const contactContent = `
     <h4>Follow Us on Social Media</h4>
     <p>Stay connected and updated by following us on social media:</p>
     <ul>
-        <p><strong>Facebook:</strong> <a href="https://www.fb.com/l/6lp1kJRRR/yourpage" target="_blank">Follow us on Facebook</a></p>
-        <p><strong>Twitter:</strong> <a href="https://twitter.com/yourprofile" target="_blank">Follow us on Twitter</a></p>
+        <p><strong>Facebook:</strong> <a href="https://www.fb.com/l/6lp1kJRRR/yourpage" target="_blank">Follow us Facebook</a></p>
         <p><strong>Instagram:</strong> <a href="I'm on Instagram as @john_vizzy. Install the app to follow my photos and videos. https://yourprofile" target="_blank">Follow us on Instagram</a></p>
     </ul>
     
