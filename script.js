@@ -706,7 +706,7 @@ const aboutContent = `
     <p>Our vision is to become a global leader in weather information services, known for accuracy, innovation, and user-centric solutions. We aim to create a world where people are better informed about the weather, leading to safer and more sustainable communities. We believe that by harnessing the power of technology and data, we can make weather information more accessible and useful to everyone.</p>
 
     <!-- About the Engineer Section -->
-    <p>Southern Sky was created by Henry Mukuka, a student of Electrical and Electronics Engineering at Information and Communication University (ICU). Henry’s passion for technology and innovation led to the development of this platform to make weather information accessible and accurate for everyone.</p>
+    <p>Southern Sky was created by Johnkawangu, a student of Electrical and Electronics Engineering at Information and Communication University (ICU). John’s passion for technology and innovation led to the development of this platform to make weather information accessible and accurate for everyone.</p>
 
     <p>Thank you for choosing Southern Sky. Explore our platform and experience weather tracking like never before.</p>
 
@@ -769,17 +769,17 @@ const contactContent = `
     <p>If you have any questions, feedback, or inquiries, feel free to reach out to us through the following options:</p>
     
     <!-- WhatsApp Link -->
-    <p><strong>Message Mr. Mukuka on WhatsApp:</strong> <a href="https://wa.me/message/EOAD4Y3FKY7OJ1" target="_blank">Click here to chat</a></p>
+    <p><strong>Message Mr. kawangu on WhatsApp:</strong> <a href="https://wa.me/message/EOAD4Y3FKY7OJ1" target="_blank">Click here to chat</a></p>
 
     <!-- Email -->
-    <p><strong>Email:</strong> <a href="mailto:mukukahenry3@gmail.com">mukukahenry3@gmail.com</a></p>
+    <p><strong>Email:</strong> <a href="mailto:Johnkawangu127@gmail.com">Johnkawangu127@gmail.com</a></p>
 
     <!-- Phone Numbers -->
     <p><strong>Contact Numbers:</strong></p>
     <ul>
-<p><strong></strong> <a href="call:+260965777362">+260965777362</a></p>
-<p><strong></strong> <a href="call:+260979911690">+260979911690</a></p>
-<p><strong></strong> <a href="call:+260951277012">+260951277012</a></p>
+<p><strong></strong> <a href="call:+260963940129">+260963940129</a></p>
+<p><strong></strong> <a href="call:+260978576758">+260978576758</a></p>
+<p><strong></strong> <a href="call:+260950102688">+260950102688</a></p>
 
 </ul>
 
