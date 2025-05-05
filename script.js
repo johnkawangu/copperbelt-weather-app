@@ -51,7 +51,7 @@ document.addEventListener('click', (event) => {
     }
 });
 // Populate the city dropdown menu
-const cities = ["Sinazeze", "Mazabuka", "Monze","Livingstone","Kazungula","Choma","Siavonga","Maamba","Sinazongwe",];
+const cities = ["chingola", "kitwe", "chililabombwe","kalulushi","ndola","mpongwe","masaiti","mufulira","luanshya",];
 const cityDropdown = document.getElementById("cityDropdown");
 
 cities.forEach(city => {
@@ -69,11 +69,11 @@ function handleDefaultCity() {
     getWeather(savedCity).catch((error) => {
         
         console.warn(`Failed to fetch weather for ${savedCity}: ${error.message}`);
-        if (savedCity !== 'Livingstone') {
+        if (savedCity !== 'chingola') {
             console.log('Falling back to Livingstone...');
-            getWeather('Livingstone').catch((fallbackError) => {
-                console.error(`Failed to fetch weather for Livingstone: ${fallbackError.message}`);
-                alert('Unable to fetch weather for the default city or Livingstone.');
+            getWeather('chingola').catch((fallbackError) => {
+                console.error(`Failed to fetch weather for chingola: ${fallbackError.message}`);
+                alert('Unable to fetch weather for the default city or chingola.');
             });
         }
     });
@@ -187,8 +187,8 @@ function displayCurrentWeather(cityName, data) {
     `;
 }
 
-window.onload = function (Livingstone) {
-    handleDefaultCity('livingstone');
+window.onload = function (chingola) {
+    handleDefaultCity('chingola');
     updateUnits('meteric'); // Initialize units based on the default unit
 };
 
@@ -539,8 +539,8 @@ function saveFeedback(name, feedback) {
 
 const languageContent = {
     en: {
-        title: "Southern Sky",
-        headerTitle: "Southern Sky",
+        title: "copperbelt weather app",
+        headerTitle: "copperbelt weather app",
         menu: "☰ Menu",
         changeLanguage: "Change Language",
         toggleUnits: "Toggle Units",
@@ -681,7 +681,7 @@ async function updateWeatherAndSections(city) {
     }
 }
 
-<!-- Southern Sky info -->
+<!-- copperbelt weather app info -->
 
     const aboutBtn = document.getElementById("aboutBtn");
     const helpBtn = document.getElementById("helpBtn");
@@ -692,10 +692,10 @@ async function updateWeatherAndSections(city) {
 
    // About content including Mission, Vision, Engineer Information, and Technology
 const aboutContent = `
-    <p>Welcome to Southern Sky! We are your trusted source for accurate, up-to-date weather information, ensuring that you stay informed and prepared for all weather conditions. Whether you're planning your day, organizing an outdoor event, or simply staying safe during severe weather, Southern Sky is here to guide you.</p>
-    <p>At Southern Sky, we understand that the weather plays a vital role in everyday life. That’s why we provide real-time updates, weekly forecasts, and severe weather alerts tailored to your location. Our user-friendly interface and interactive features make accessing weather information seamless and intuitive.</p>
-    <p>Powered by advanced technology, Southern Sky uses the OpenWeatherMap API to deliver reliable and precise data from trusted global sources. We aim to empower individuals, families, and communities by keeping them informed and helping them make decisions confidently.</p>
-    <p>Beyond just providing weather updates, Southern Sky is committed to promoting environmental awareness. As climate change continues to impact weather patterns, we aim to educate and inspire users to take action for a sustainable future.</p>
+    <p>Welcome to copperbeltweather app ! We are your trusted source for accurate, up-to-date weather information, ensuring that you stay informed and prepared for all weather conditions. Whether you're planning your day, organizing an outdoor event, or simply staying safe during severe weather, copperbelt weather app is here to guide you.</p>
+    <p>At copperbeltweatherapp, we understand that the weather plays a vital role in everyday life. That’s why we provide real-time updates, weekly forecasts, and severe weather alerts tailored to your location. Our user-friendly interface and interactive features make accessing weather information seamless and intuitive.</p>
+    <p>Powered by advanced technology, copperbelt weather app uses the OpenWeatherMap API to deliver reliable and precise data from trusted global sources. We aim to empower individuals, families, and communities by keeping them informed and helping them make decisions confidently.</p>
+    <p>Beyond just providing weather updates, copperbelt weather app is committed to promoting environmental awareness. As climate change continues to impact weather patterns, we aim to educate and inspire users to take action for a sustainable future.</p>
 
     <!-- Mission Section -->
     <h3>Our Mission</h3>
@@ -706,27 +706,27 @@ const aboutContent = `
     <p>Our vision is to become a global leader in weather information services, known for accuracy, innovation, and user-centric solutions. We aim to create a world where people are better informed about the weather, leading to safer and more sustainable communities. We believe that by harnessing the power of technology and data, we can make weather information more accessible and useful to everyone.</p>
 
     <!-- About the Engineer Section -->
-    <p>Southern Sky was created by Johnkawangu, a student of Electrical and Electronics Engineering at Information and Communication University (ICU). John’s passion for technology and innovation led to the development of this platform to make weather information accessible and accurate for everyone.</p>
+    <p>copperbelt weather app was created by Johnkawangu, a student of Electrical and Electronics Engineering at Information and Communication University (ICU). John’s passion for technology and innovation led to the development of this platform to make weather information accessible and accurate for everyone.</p>
 
-    <p>Thank you for choosing Southern Sky. Explore our platform and experience weather tracking like never before.</p>
+    <p>Thank you for choosing copperbelt weather app . Explore our platform and experience weather tracking like never before.</p>
 
     <!-- Technology Section -->
     <h3>Technology Used</h3>
-    <p>Southern Sky is built using a combination of modern web technologies to provide a seamless and interactive user experience. Here are the key technologies used:</p>
+    <p>copperbelt weather app is built using a combination of modern web technologies to provide a seamless and interactive user experience. Here are the key technologies used:</p>
 
         <p><strong>HTML (Hypertext Markup Language):</strong> The backbone of the website's structure, HTML is used to define the content and elements of each page.</p>
         <p><strong>CSS (Cascading Style Sheets):</strong> CSS is used to style the layout, colors, fonts, and overall visual appearance of the website, ensuring a responsive and visually appealing experience across all devices.</p>
-        <p><strong>JavaScript:</strong> JavaScript powers the interactive elements of Southern Sky, enabling real-time weather updates, dynamic content changes, and seamless user interactions. It is also used to handle user inputs and API requests.</p>
+        <p><strong>JavaScript:</strong> JavaScript powers the interactive elements of copperbelt weather app , enabling real-time weather updates, dynamic content changes, and seamless user interactions. It is also used to handle user inputs and API requests.</p>
         <p><strong>OpenWeatherMap API:</strong> We use the OpenWeatherMap API to fetch accurate, real-time weather data from trusted global sources, allowing us to display forecasts, weather conditions, and severe weather alerts.</p>
         <p><strong>Responsive Design:</strong> The website is designed to be fully responsive, meaning it automatically adjusts to different screen sizes, ensuring an optimal user experience on desktop, tablet, and mobile devices.</p>
-        <p><strong>Web Hosting & Deployment:</strong> Southern Sky is hosted on a reliable web hosting platform, ensuring fast loading times and uptime for users accessing the site from all around the world.</p>
+        <p><strong>Web Hosting & Deployment:</strong> copperbelt weather app hosted on a reliable web hosting platform, ensuring fast loading times and uptime for users accessing the site from all around the world.</p>
 
     <p>These technologies allow us to deliver a robust, user-friendly, and efficient weather platform that meets the needs of our users worldwide.</p>
 `;
 
     // Help content including FAQs and Problem Submission Form
 const helpContent = `
-    <p>If you need assistance navigating Southern Sky, here are some common questions and solutions:</p>
+    <p>If you need assistance navigating copperbelt weather app , here are some common questions and solutions:</p>
 
     <p><strong>1. How do I use the weather features?</strong></p>
     <p>To check the weather for your location, simply enter your city or allow location permissions to view weather updates for your area. You can also add multiple cities to your list to track the weather in different locations.</p>
