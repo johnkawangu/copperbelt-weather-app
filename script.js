@@ -267,16 +267,16 @@ function setBackground(weather) {
   let body = document.body;
   switch (weather) {
     case 'Clear':
-      body.style.backgroundImage = "url('clear-sky.jpg')";
+      body.style.backgroundImage = "url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR4jcKLWR-o4N4ZSIOIcCorjU3YL4NSj-RAiQ&s')";
       break;
     case 'Clouds':
-      body.style.backgroundImage = "url('cloudy.jpg')";
+      body.style.backgroundImage = "url('https://images.unsplash.com/photo-1509803874385-db7c23652552?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8Y2xvdWR8ZW58MHx8MHx8fDA%3D')";
       break;
     case 'Rain':
-      body.style.backgroundImage = "url('rainy.jpg')";
+      body.style.backgroundImage = "url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQqNCww3uUgi6DO16NOXuywzb9hZixSAd1Qyw&s')";
       break;
     case 'Snow':
-      body.style.backgroundImage = "url('snow.jpg')";
+      body.style.backgroundImage = "url('https://assets-news.housing.com/news/wp-content/uploads/2022/09/10080051/BEST-SNOW-PLACES-IN-INDIA-FEATURE-compressed.jpg')";
       break;
     default:
       body.style.backgroundImage = "url('default.jpg')";
