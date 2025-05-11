@@ -279,7 +279,7 @@ function setBackground(weather) {
       body.style.backgroundImage = "url('https://assets-news.housing.com/news/wp-content/uploads/2022/09/10080051/BEST-SNOW-PLACES-IN-INDIA-FEATURE-compressed.jpg')";
       break;
     default:
-      body.style.backgroundImage = "url('default.jpg')";
+      body.style.backgroundImage = "url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6fobKqzyKJ53smXQId9FjD4iK7UuvujF2ZA&s')";
   }
 }
 
