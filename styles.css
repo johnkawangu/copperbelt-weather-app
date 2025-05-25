@@ -18,7 +18,7 @@ header {
 }
 
 header {
-  background-image: url(https://github.com/johnkawangu/copperbelt-weather-app/blob/main/IMG-20250503-WA0007.jpg#:~:text=t-,IMG%2D20250503%2DWA0007.jpg,-IMG%2D20250503%2DWA0008);
+  background-image: url(IMG-20250503-WA0007.jpg);
   background-size: cover;
   background-position: center;
   height: 300px; /* Adjust height as needed */
