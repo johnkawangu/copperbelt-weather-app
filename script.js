@@ -774,7 +774,7 @@ const contactContent = `
 " target="_blank">Click here to chat</a></p>
 
     <!-- Email -->
-    <p><strong>Email:</strong> <a href="mailto:Johnkawangu127@gmail.com</a></p>
+    <p><strong>Email:</strong> <a href="Johnkawangu127@gmail.com</a></p>
 
     <!-- Phone Numbers -->
     <p><strong>Contact Numbers:</strong></p>
