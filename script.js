@@ -769,17 +769,19 @@ const contactContent = `
     <p>If you have any questions, feedback, or inquiries, feel free to reach out to us through the following options:</p>
     
     <!-- WhatsApp Link -->
-    <p><strong>Message Mr. Mukuka on WhatsApp:</strong> <a href="https://wa.me/message/EOAD4Y3FKY7OJ1" target="_blank">Click here to chat</a></p>
+    <p><strong>Message Mr. kawangu on WhatsApp:</strong> <a href="https://whatsapp.com/dl/
+
+" target="_blank">Click here to chat</a></p>
 
     <!-- Email -->
-    <p><strong>Email:</strong> <a href="mailto:mukukahenry3@gmail.com">mukukahenry3@gmail.com</a></p>
+    <p><strong>Email:</strong> <a href="mailto:Johnkawangu127@gmail.com</a></p>
 
     <!-- Phone Numbers -->
     <p><strong>Contact Numbers:</strong></p>
     <ul>
-<p><strong></strong> <a href="call:+260965777362">+260965777362</a></p>
-<p><strong></strong> <a href="call:+260979911690">+260979911690</a></p>
-<p><strong></strong> <a href="call:+260951277012">+260951277012</a></p>
+<p><strong></strong> <a href="call:+260963940129">+260963940129</a></p>
+<p><strong></strong> <a href="call:+260978576758">+260978576758</a></p>
+<p><strong></strong> <a href="call:+260950102688">+260950102688</a></p>
 
 </ul>
 
@@ -788,7 +790,6 @@ const contactContent = `
     <p>Stay connected and updated by following us on social media:</p>
     <ul>
         <p><strong>Facebook:</strong> <a href="https://www.facebook.com/yourpage" target="_blank">Follow us on Facebook</a></p>
-        <p><strong>Twitter:</strong> <a href="https://twitter.com/yourprofile" target="_blank">Follow us on Twitter</a></p>
         <p><strong>Instagram:</strong> <a href="https://instagram.com/yourprofile" target="_blank">Follow us on Instagram</a></p>
     </ul>
     
