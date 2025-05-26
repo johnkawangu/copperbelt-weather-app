@@ -789,7 +789,7 @@ const contactContent = `
     <h4>Follow Us on Social Media</h4>
     <p>Stay connected and updated by following us on social media:</p>
     <ul>
-        <p><strong>Facebook:</strong> <a href="https://www.facebook.com/yourpage" target="_blank">Follow us on Facebook</a></p>
+        <p><strong>Facebook:</strong> <a href="https://www.fb.com/l/6lp1kJRRR" target="_blank">Follow us on Facebook</a></p>
         <p><strong>Instagram:</strong> <a href="https://instagram.com/yourprofile" target="_blank">Follow us on Instagram</a></p>
     </ul>
     
