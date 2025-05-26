@@ -790,7 +790,7 @@ const contactContent = `
     <p>Stay connected and updated by following us on social media:</p>
     <ul>
         <p><strong>Facebook:</strong> <a href="https://www.fb.com/l/6lp1kJRRR" target="_blank">Follow us on Facebook</a></p>
-        <p><strong>Instagram:</strong> <a href="https://instagram.com/yourprofile" target="_blank">Follow us on Instagram</a></p>
+        <p><strong>Instagram:</strong> <a href="I'm on Instagram as @john_vizzy. Install the app to follow my photos and videos. https://www.instagram.com/invites/contact/?utm_source=ig_contact_invite&utm_medium=copy_link&utm_content=25z2rzq" target="_blank">Follow us on Instagram</a></p>
     </ul>
     
     <p>We look forward to hearing from you!</p>
